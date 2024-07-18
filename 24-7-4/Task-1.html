@@ -1,0 +1,87 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>att bck</title>
+    <style>
+        div[class] {
+            background-color: lightgrey;
+            border: 2px solid;
+            padding: 20px;
+        }
+
+        p[class]{
+            border: 1px solid black;
+            background-color: aqua;
+        }
+        p[class=att2]{
+            color: brown;
+        }
+
+        a[class~=attribute]{
+            color: aqua;
+        }
+        a[class~=using]{
+            background-color: black;
+        }
+        a[class~=value]{
+            border: 2px solid black;
+            display: block;
+        }
+
+        m[class|=attribute]{
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Attribute-1 [ attribute ]</h1>
+    <p>
+    <div class=""> <b><u>[attribute]:</u></b> Selects elements with the specified attribute.<br>
+        [target] { background-color: lightgray; }<br>
+        This selects all elements that have the target attribute.
+    </div>
+    </p>
+    <hr>
+
+    <h1>Attribute-2 [ attribute=value ]</h1>
+    <p class=""> <b><u>[attribute=value]:</u></b> Selects elements with the specified attribute
+        and exact value.<br>
+        input[type=&quot;text&quot;] { border: 1px solid black; }<br>
+        This selects all &lt;input&gt; elements where type is exactly text.
+    </p>
+
+    <p class="att2"> <b><u>[attribute=value]:</u></b> Selects elements with the specified attribute
+        and exact value.<br>
+        input[type=&quot;text&quot;] { border: 1px solid black; }<br>
+        This selects all &lt;input&gt; elements where type is exactly text.
+    </p><hr>
+
+    <h1>Attribute-3 attribute~="value"</h1>
+    <a class="attribute using value"> <b><u>[attribute~=value]:</u></b> Selects elements with the specified attribute whose value is a whitespace-separated list of words, one of which is exactly the specified value.<br>
+        [class~=&quot;button&quot;] { padding: 10px; }<br>
+        This selects elements that have a class attribute containing the word &quot;button&quot; (e.g., class=&quot;button primary&quot;).
+    </a><hr>
+
+    <h1>Attribute-4 attribute|=value</h1>
+    <m class="attribute-using-value">  <b><u>[attribute|=value]:</u></b> Selects elements with the specified attribute whose value is either exactly the specified value or starts with the specified value followed by a hyphen (usually used for language codes).<br>
+        [lang|=&quot;en&quot;] { color: blue; }<br>
+        This selects elements with a lang attribute value that is exactly &quot;en&quot; or starts with &quot;en-&quot; (e.g., lang=&quot;en-US&quot;).<br>
+    <m><hr>
+
+    <h1>Attribute-5 attribute^=value</h1>  
+    <i >
+        <b><u>[attribute^=value]:</u></b> Selects elements with the specified attribute
+        whose value starts with the specified value.
+        a[href^=&quot;https&quot;] { color: green; }
+        This selects &lt;a&gt; elements where the href attribute value starts with
+        &quot;https&quot;.
+        
+    </i>  
+ 
+</body>
+
+</html> -->
